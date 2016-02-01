@@ -17,11 +17,11 @@ html {
 }
 
 #left-ear {
-  transform: translate(0,0);
+  transform: translate(0, 0);
 }
 
 #right-ear {
-  transform: translate(0,0);
+  transform: translate(0, 0);
 }
 
 #bear #left-ear {
@@ -33,11 +33,11 @@ html {
 }
 
 #bear:hover #left-ear {
-  transform: translate(0px, 10px);
+  transform: translate(0, 10px);
 }
 
 #bear:hover #right-ear {
-  transform: translate(0px, 10px);
+  transform: translate(0, 10px);
 }
 
 #left-eye {
@@ -51,29 +51,32 @@ html {
 }
 
 @keyframes slide {
+
   0% {
-  transform: translate(-10px,0px);
+    transform: translate(-10px, 0);
   }
 
   100% {
-  transform: translate(10px, 0px);
+    transform: translate(10px, 0);
   }
+
 }
+
 .st0 {
   fill: #673200;
 }
 
 .st1 {
-  fill: #FFAACA;
+  fill: #ffaaca;
 }
 
 .st2 {
-  fill: #C65B00;
+  fill: #c65b00;
 }
 
 .st3 {
   fill: none;
-  stroke: #000000;
+  stroke: #000;
   stroke-width: 3;
   stroke-linecap: round;
   stroke-linejoin: round;
